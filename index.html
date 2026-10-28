@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hermes Gmail Automation is Hisham's personal Windows integration for owner-authorized Gmail workflows, run locally with Hermes and Ollama.">
+  <title>Hermes Gmail Automation — Personal Gmail workflows</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">H</span><span>Hermes Gmail<br>Automation</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Overview</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">A personal tool · Maintained by Hisham</p>
+          <h1 id="page-title">Gmail workflows,<br>run locally.</h1>
+          <p class="lead">Hermes Gmail Automation connects Hisham's Gmail account to a personal Windows installation of Hermes to read, organize, and act on email through owner-authorized workflows.</p>
+          <div class="actions">
+            <a class="button primary" href="privacy.html">Read the privacy policy</a>
+            <a class="button" href="#how-it-works">How it works</a>
+          </div>
+        </div>
+        <aside class="overview" aria-label="Integration details">
+          <h2>At a glance</h2>
+          <dl>
+            <div><dt>USE</dt><dd>Personal use by Hisham</dd></div>
+            <div><dt>RUNTIME</dt><dd>Hermes on Windows; Ollama as the normal local model</dd></div>
+            <div><dt>ACCOUNT CONNECTION</dt><dd>Google OAuth with Gmail modify access</dd></div>
+            <div><dt>THIS WEBSITE</dt><dd>Public information only; no mailbox access or sign-up</dd></div>
+          </dl>
+        </aside>
+      </section>
+      <section class="section" id="how-it-works" aria-labelledby="workflow-title">
+        <h2 id="workflow-title">What the integration can do</h2>
+        <div class="cards">
+          <article class="card"><span class="card-number" aria-hidden="true">01 / READ</span><h3>Find and process email</h3><p>Read messages and relevant message data for tasks such as searching, summarizing, and preparing replies.</p></article>
+          <article class="card"><span class="card-number" aria-hidden="true">02 / ORGANIZE</span><h3>Update the mailbox</h3><p>Apply labels and change message state, including marking messages read, archiving, or moving them to Trash.</p></article>
+          <article class="card"><span class="card-number" aria-hidden="true">03 / ACT</span><h3>Draft and send</h3><p>Compose email and send messages only through workflows and to recipients authorized by the owner.</p></article>
+        </div>
+        <p class="note">The requested Gmail permission is <code>gmail.modify</code>. It includes read, compose, send, and mailbox modification access; it does not permit immediate permanent deletion that bypasses Trash.</p>
+      </section>
+      <section class="section" aria-labelledby="data-title">
+        <h2 id="data-title">A local workflow with clear data boundaries</h2>
+        <p class="lead">OAuth credentials are stored in protected local Hermes files. Email content may be retained in local conversations, logs, or workflow outputs. Configured external integrations may receive relevant data when the owner instructs them to.</p>
+        <p class="note">This is a personal integration, not a hosted public service. This static website cannot read Gmail, run workflows, or accept credentials. The <a href="privacy.html">privacy policy</a> explains processing, retention, sharing, and revoking access.</p>
+      </section>
+      <section class="section contact-row" aria-labelledby="contact-title">
+        <div><h2 id="contact-title">Contact the owner</h2><p>Questions about this integration or its data practices can be sent to Hisham.</p></div>
+        <a href="mailto:hisham.a76568@gmail.com">hisham.a76568@gmail.com</a>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>Hermes Gmail Automation · Personal use · Updated October 28, 2026</p>
+      <div><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></div>
+    </footer>
+  </div>
+</body>
+</html>
