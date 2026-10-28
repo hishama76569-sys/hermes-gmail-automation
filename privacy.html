@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Hermes Gmail Automation accesses, uses, retains, and shares Gmail data for Hisham's personal local workflows.">
+  <title>Privacy policy — Hermes Gmail Automation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">H</span><span>Hermes Gmail<br>Automation</span></a>
+      <nav class="nav" aria-label="Main navigation"><a href="index.html">Overview</a><a href="privacy.html" aria-current="page">Privacy</a><a href="terms.html">Terms</a></nav>
+    </header>
+    <main class="document">
+      <p class="eyebrow">Data practices</p>
+      <h1>Privacy policy</h1>
+      <p class="updated">Last updated: October 28, 2026</p>
+      <p class="intro">Hermes Gmail Automation is a personal Gmail integration maintained by Hisham on Windows. This policy describes that local installation and this public information website. The integration is not a hosted public service and has no public sign-up.</p>
+      <section aria-labelledby="access">
+        <h2 id="access">Gmail access and purpose</h2>
+        <p>The owner connects the Gmail account using Google OAuth. The integration requests <code>gmail.modify</code>, which permits reading, composing and sending messages, and changing labels and mailbox state, including moving messages to Trash. This scope does not permit immediate permanent deletion that bypasses Trash.</p>
+        <p>Depending on the workflow, processed data can include message bodies, attachments, sender and recipient addresses, other message metadata, and labels. Hermes uses this data to carry out the owner's requested email tasks, such as searching, summarizing, preparing replies, sending authorized messages, and organizing the mailbox.</p>
+      </section>
+      <section aria-labelledby="processing">
+        <h2 id="processing">Where processing happens</h2>
+        <p>Hermes runs on the owner's Windows computer, with Ollama as the normal local model. Gmail access requires requests to Google's Gmail API. Google OAuth client information and tokens are stored in protected local Hermes files; they are not placed on this public website.</p>
+        <p>The public website is static. It has no Gmail connection, credential form, analytics, advertising trackers, or embedded third-party assets. On GitHub Pages, GitHub processes ordinary website request information and logs visitors' IP addresses for security purposes. This hosting activity does not give the website or GitHub Pages access to the connected Gmail account. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> for its practices.</p>
+      </section>
+      <section aria-labelledby="retention">
+        <h2 id="retention">Local storage and retention</h2>
+        <p>Email content and derived information may be retained locally in agent conversations, logs, and workflow outputs. Retention depends on the owner's configuration and workflows, and this data may remain until the owner deletes it. Local credentials are retained to support the authorized account connection.</p>
+        <p>The owner can delete retained local email data and remove local OAuth files. Removing the integration's Google Account access prevents further authorized account access, but does not by itself remove copies already retained locally or messages already sent.</p>
+      </section>
+      <section aria-labelledby="sharing">
+        <h2 id="sharing">Sending and external integrations</h2>
+        <p>Email is sent only through workflows and to recipients the owner authorizes. Sending delivers message content to those recipients through Gmail.</p>
+        <p>Configured external integrations may receive relevant email content or derived data when the owner instructs them to. If the owner selects an external model provider instead of local Ollama, data sent to that provider is processed under its own terms and privacy practices. Local operation therefore does not mean that every workflow keeps all data on the computer.</p>
+      </section>
+      <section aria-labelledby="limited-use">
+        <h2 id="limited-use">Google API data use</h2>
+        <p>Hermes Gmail Automation's use and transfer of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements. For this personal integration, Gmail data is used to provide the owner's email workflows. Transfers to configured services require the owner's authorization and must support those workflows. Gmail data is not sold or used for advertising.</p>
+      </section>
+      <section aria-labelledby="control">
+        <h2 id="control">Access, deletion, and security</h2>
+        <p>The owner can stop workflows and revoke the application's account access from the third-party connections or permissions area of their Google Account. Retained local data can be deleted separately by the owner. Device access controls and the local Hermes configuration affect the protection of local files and credentials.</p>
+        <p>For questions about this policy, retained data, or the integration, contact Hisham at <a href="mailto:hisham.a76568@gmail.com">hisham.a76568@gmail.com</a>. Changes to these practices will be reflected on this page with an updated date.</p>
+      </section>
+    </main>
+    <footer class="site-footer"><p>Hermes Gmail Automation · Personal use</p><div><a href="index.html">Overview</a><a href="terms.html">Terms of use</a><a href="mailto:hisham.a76568@gmail.com">Contact</a></div></footer>
+  </div>
+</body>
+</html>
